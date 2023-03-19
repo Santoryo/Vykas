@@ -1,5 +1,5 @@
 # Vykas
- Vykas is reverse engineered Twitch Lost Ark Armory Extension that fetches informations about user. It shows everything that Lost Ark Armory displays on the widget. Example resposne can be found [here](https://pastebin.com/1d9Qy0Rp)
+ Vykas is reverse engineered Twitch Lost Ark Armory Extension that fetches informations about user. It shows everything that Lost Ark Armory displays on the widget. Example response can be found [here](https://pastebin.com/1d9Qy0Rp)
  
  ![](https://i.imgur.com/TMMVFjx.jpg)
  
