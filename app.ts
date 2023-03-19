@@ -7,7 +7,7 @@ dotenv.config()
 const app = express();
 const port = process.env.PORT;
 
-app.get('/:user', async (req, res) => {
+app.get('/v2/loa/:user', async (req, res) => {
     const armory = await getArmory(req.params.user);
     await update(armory.armory, armory.userId);
 
