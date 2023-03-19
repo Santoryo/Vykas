@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const update = async (data: any, userId: any) => {
-if (data != "This user doesn't have Armory Extension" && !(JSON.stringify(data).includes('3001'))) {
+if (data != "This user doesn't have Armory Extension" && !(JSON.stringify(data).includes('3001')) && data != "This user doesn't exist") {
         var connection = mysql.createConnection({
             host: process.env.DB_HOST,
             user: process.env.DB_USERNAME,
