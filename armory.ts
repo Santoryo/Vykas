@@ -98,9 +98,9 @@ const getArmory = async (userName: string) => {
       armory = "This user doesn't have Armory Extension";
       console.log("[WARN] This user doesn't have Armory Extension.");
     }
-    return armory;
+    return {armory, userId};
   } else {
-    return "This user doesn't exist";
+    return {armory: "This user doesn't exist", userId: 0};
   }
 };
 
