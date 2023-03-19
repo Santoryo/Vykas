@@ -13,6 +13,6 @@ app.get('/:user', async (req, res) => {
 
     res.send({armory: armory.armory});
 });
- 
+
 
 app.listen(port);
